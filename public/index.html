@@ -6,11 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body ng-controller="mainController">
-  <div class="container">
-    <ul ng-repeat="todo in todoData">
-      <li>{{ todo.text }}</li>
-    </ul>
-  </div>
+  <div class="container"></div>
+
+    <div class="todo-form">
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Enter todo" ng-model="formData.text">
+        </div>
+        <button type="submit" ng-click="createTodo()">Add Todo</button>
+      </form>
+    </div>
+
+    <br>
+    <hr>
+
+    <div class="todo-list">
+      <ul ng-repeat="todo in todoData">
+        <li><input type="checkbox" ng-click="deleteTodo(todo.id)">&nbsp;{{ todo.text }}</li>
+      </ul>
+    </div>
+
   <script src="/vendor/jquery/dist/jquery.js"></script>
   <script src="/vendor/angular/angular.js"></script>
   <script src="js/app.js"></script>
