@@ -1,0 +1,29 @@
+{
+  "name": "node-postgres-todo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mmarcinek/node-postgres-todo",
+  "authors": [
+    "Michael Marcinek <michaelmarcinek@gmail.com>"
+  ],
+  "description": "A simple todo list made with Node.js, Angular and Postgres",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+   "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "normalize.css": "~3.0.3",
+    "angular": "~1.4.1",
+    "ui-router": "~0.2.15",
+    "foundation": "~5.5.2",
+    "angular-material": "~0.10.0",
+    "material-design-icons": "~2.0.0",
+    "angular-cookies": "~1.4.2",
+    "cookies-js": "~1.2.1"
+  }
+}
