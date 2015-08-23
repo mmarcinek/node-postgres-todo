@@ -15,3 +15,6 @@ To build out this application, I followed this tutorial:
 `http://mherman.org/blog/2015/02/12/postgresql-and-nodejs/#project-setup`
 
 And I am incredibly thankful for Michael Herman's thorough walkthrough of building out a set of simple Node routes and a basic PostgresSQL database. I found the tutorial to be incredibly helpful, his basic Angular set-up is a really great tool as well.
+
+This To-do list will be styled using Angular Material and refactored for sails.js (a node.js backend framework).
+
